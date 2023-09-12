@@ -1,0 +1,108 @@
+.body1{
+	background: rosybrown;
+}
+div h1{
+	color: maroon;
+	border-bottom: .4rem solid maroon;
+	width: 25rem;
+	border-right: .3rem solid maroon;
+	box-shadow: .2rem .2rem .2rem antiquewhite;
+	font-size: 3rem;
+	text-shadow: .1rem .1rem antiquewhite;
+	font-family: "Bad Script";
+	transition: 1s;
+
+}
+div img{
+	width: 15rem;
+	height: 18rem;
+	border-radius: 1rem;
+	box-shadow: .3rem .3rem .3rem black;
+	float: left;
+}
+div p{
+	color: maroon;
+	margin-left: 17rem;
+	font-size: 1.5rem;
+
+}
+div li{
+	color: maroon;
+	margin-left: 17rem;
+	font-size: 1.5rem;
+
+}
+#first{
+	text-decoration: line-through;
+}
+#second{
+	text-decoration: line-through;
+}
+#third{
+	
+}
+#fourth{
+	list-style: none;
+	border: .3rem solid antiquewhite;
+	border-radius: 10rem;
+	width: 4rem;
+	height: 2rem;
+	margin-left: 16.5rem;
+	margin-top: -1.9rem;	
+
+}
+h1:hover{
+	transform: scale(1.08);
+	margin-left: 1rem;
+}
+.div1 a{
+	margin-left: 2.7rem;
+	font-size: 1.75rem;
+	color: black;
+	text-shadow: -.1rem .1rem maroon;
+	font-weight: bold;
+	font-family: "Sedgwick Ave Display";
+	transition: 1s;
+}
+.div1 a:hover{
+	transform: scale(1.08);
+	margin-left: 3rem;
+	font-size: 2rem;
+}
+
+.div2 h1{
+	color: black;
+	border-bottom: .4rem solid maroon;
+	width: 16rem;
+	border-right: .3rem solid maroon;
+	box-shadow: .2rem .2rem .2rem maroon;
+	font-size: 3rem;
+	text-shadow: .1rem .1rem maroon;
+	font-family: "Sedgwick Ave Display";
+	transition: 1s;
+}
+.body2{
+	background-color: #101010;
+	color: maroon;
+	text-shadow: .1rem .1rem black;
+	font-family: "Sedgwick Ave Display"
+}
+hr{
+	background-color: maroon;
+	height: .1rem;
+	border: none;
+}
+.div2 a{
+	margin-left: 2.7rem;
+	font-size: 1.75rem;
+	color: maroon;
+	text-shadow: .1rem .1rem antiquewhite;
+	font-weight: bold;
+	font-family: "Bad Script";
+	transition: 1s;
+}
+.div2 a:hover{
+	transform: scale(1.08);
+	margin-left: 3rem;
+	font-size: 2rem;
+}
