@@ -135,7 +135,7 @@ section {
 }
 
 .header.sticked {
-  height: 70px;
+  height: 5rem;
 }
 
 .header .logo img {
@@ -144,7 +144,7 @@ section {
 }
 
 .header .logo h1 {
-  font-size: 30px;
+  font-size: 1.7rem;
   font-weight: 700;
   color: deeppink;
   font-family: Nosifer;
@@ -182,7 +182,7 @@ section {
     justify-content: space-between;
     padding: 10px 0 10px 30px;
     font-family: nosifer;
-    font-size: 12px;
+    font-size: .75rem;
     font-weight: 500;
     color: deeppink;
     white-space: nowrap;
@@ -254,7 +254,7 @@ section {
   .navbar .dropdown ul a:hover,
   .navbar .dropdown ul .active:hover,
   .navbar .dropdown ul li:hover>a {
-    color: var(--color-primary);
+    color: var(--color-p);
   }
 
   .navbar .dropdown:hover>ul {
@@ -307,7 +307,7 @@ section {
     padding: 10px 0;
     margin: 0;
     border-radius: 10px;
-    background-color: var(--color-white);
+    background-color: white;
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -319,10 +319,10 @@ section {
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
-    font-family: var(--font-primary);
+    font-family: "Permanent Marker";
     font-size: 15px;
     font-weight: 600;
-    color: var(--color-primary);
+    color: deeppink;
     white-space: nowrap;
     transition: 0.3s;
   }
@@ -338,7 +338,7 @@ section {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: var(--color-primary);
+    color: deeppink;
   }
 
   .navbar .dropdown ul,
@@ -348,7 +348,7 @@ section {
     z-index: 99;
     padding: 10px 0;
     margin: 10px 20px;
-    background: var(--color-white);
+    background: white;
     transition: all 0.5s ease-in-out;
     box-shadow: 0px 0px 30px rgba(var(--color-black-rgb), 0.1);
   }
@@ -360,7 +360,7 @@ section {
 
   .mobile-nav-toggle {
     display: inline-block;
-    color: var(--color-secondary);
+    color: deeppink;
     font-size: 28px;
     cursor: pointer;
     line-height: 0;
@@ -368,7 +368,7 @@ section {
   }
 
   .mobile-nav-toggle.bi-x {
-    color: var(--color-black);
+    color: deeppink;
   }
 
   .mobile-nav-active {
@@ -380,7 +380,7 @@ section {
     top: 15px;
     right: 15px;
     z-index: 9999;
-    color: var(--color-white);
+    color: deeppink;
   }
 
   .mobile-nav-active .navbar {
