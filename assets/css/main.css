@@ -35,7 +35,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--font-primary);
+  font-family: "Roboto Condensed";
 }
 
 #main {
@@ -65,15 +65,18 @@ section {
 
 h1, .customheader{
   font-size: 3rem;
+  font-family: "Roboto Condensed";
 }
 
 .custom-category-section{
   padding-top: 0rem;
+  
 }
 
-.album-titles{
+.article-titles{
   font-size: 2.5rem;
   font-family: "Oswald";
+  color: black;
 }
 
 .article-heading{
@@ -99,6 +102,29 @@ section, .single-post-content{
 
 .link-exception{
   color: black;
+}
+
+.article-titles-small{
+  font-size: 1.5rem;
+  font-family: "Oswald";
+  color: black;
+}
+
+.article-titles-medium{
+  font-size: 2rem;
+  font-family: "Oswald";
+  color: black;
+}
+
+.article-titles-xsmall
+{
+  font-size: 1.2rem;
+  font-family: "Oswald";
+  color: black;
+}
+
+.footer-heading{
+  font-family: "Oswald";
 }
 
 /*--------------------------------------------------------------
