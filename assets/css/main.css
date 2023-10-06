@@ -127,6 +127,11 @@ section, .single-post-content{
   font-family: "Oswald";
 }
 
+.img-fluid-custom{
+  width: 100%;
+  height: auto;
+}
+
 /*--------------------------------------------------------------
 # Scroll top button
 --------------------------------------------------------------*/
